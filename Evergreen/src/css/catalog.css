@@ -1,0 +1,121 @@
+.wrapper {
+    background-image: url(../img/catalog/catalog__background.jpg);
+}
+
+/*======================================
+                                    WORK
+======================================*/
+
+.main-block__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-top: 1px solid var(--on-primary);
+    border-bottom: 1px solid var(--on-primary);
+
+    backdrop-filter: blur(10px);
+
+    margin-top: 230px;
+    margin-bottom: 185px;
+}
+
+.main-block__wrapper h1 {
+    color: var(--on-primary);
+    text-transform: uppercase;
+    padding: 70px 0;
+}
+
+.main-block__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-block__bottom p {
+    color: var(--on-primary);
+    text-transform: uppercase;
+}
+
+.vl {
+    border-left: 1px solid var(--on-primary);
+    height: 120px;
+    left: 50%;
+    top: 0;
+
+    margin-top: 30px;
+}
+
+/*======================================
+                              MAIN-BLOCK
+======================================*/
+
+.info__container {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.info__wrapper {
+    display: flex;
+    justify-content: center;
+
+    background-image: url(../img/catalog/catalog__wrapper.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    padding: 160px 0;
+}
+
+.info__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    border: 1px solid var(--on-background-2);
+    backdrop-filter: blur(10px);
+
+    background-color: var(--background-50);
+
+    max-width: 1180px;
+
+    padding: 110px 70px;
+}
+
+.info__box h2 {
+    margin-bottom: 20px;
+}
+
+/*======================================
+                                    INFO
+======================================*/
+
+.swiper {
+    max-width: 100%;
+}
+
+.swiper-slide img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: var(--primary);
+    background-color: var(--background-50);
+    padding: 0 65px;
+    height: 1000px;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next::after:hover {
+    background-color: white;
+}
+
+
+/*======================================
+                                CONTENT
+======================================*/
