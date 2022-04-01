@@ -1,0 +1,150 @@
+.wrapper {
+    background-image: url(/Evergreen/src/img/events/events__background.jpg);
+}
+
+/*======================================
+                                    WORK
+======================================*/
+
+.main-block__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-top: 1px solid var(--on-primary);
+    border-bottom: 1px solid var(--on-primary);
+
+    backdrop-filter: blur(10px);
+
+    margin-top: 230px;
+    margin-bottom: 185px;
+}
+
+.main-block__wrapper h1 {
+    color: var(--on-primary);
+    text-transform: uppercase;
+    padding: 70px 0;
+}
+
+.main-block__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-block__bottom p {
+    color: var(--on-primary);
+    text-transform: uppercase;
+}
+
+.vl {
+    border-left: 1px solid var(--on-primary);
+    height: 120px;
+    left: 50%;
+    top: 0;
+
+    margin-top: 30px;
+}
+
+/*======================================
+                              MAIN-BLOCK
+======================================*/
+
+.events__container {
+   display: flex;
+   flex-direction: column;
+    
+    margin-top: 80px;
+    margin-bottom: 75px;
+}
+
+.events__wrapper-1 {
+    background-image: url(/Evergreen/src/img/events/events-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.events__wrapper-2 {
+    background-image: url(/Evergreen/src/img/events/events-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.events__wrapper__content {
+    background-color: var(--background-50);
+    backdrop-filter: blur(10px);
+
+    padding: 190px 0;
+
+    max-width: 50%;
+}
+
+.events__wrapper__content p {
+    margin: 0 140px;
+    max-width: 680px;
+}
+
+/*======================================
+                                 CONTENT
+======================================*/
+
+.swiper__events {
+    position: relative;
+    border-top: 2px solid var(--primary);
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    width: 160px;
+    height: 100%;
+    background-color: var(--background-50);
+    transition: all .1s linear;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: var(--primary);
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    transition: all .1s linear;
+    background-color: var(--background);
+}
+
+.swiper-slide {
+    opacity: 20%;
+    transition: all .1s linear;
+}
+
+.swiper-slide-active {
+    opacity: 100%;
+    transition: all .1s linear;
+}
+
+.slider-top {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    max-width: 1600px;
+    width: 100%;
+    background-color: var(--background-50);
+    backdrop-filter: blur(10px);
+}
+
+/*======================================
+                         CONTENS__SWIPER
+======================================*/

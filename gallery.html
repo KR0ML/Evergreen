@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="./src/css/typography.css">
     <link rel="stylesheet" href="./src/css/variables.css">
     <link rel="stylesheet" href="./src/css/components.css">
-    <link rel="stylesheet" href="./src/css/gallery.css">
+    <link rel="stylesheet" href="./src/libraries/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./src/css/pages/gallery.css">
     <title>Галерея</title>
 </head>
 
@@ -87,7 +88,33 @@
 
     </section>
 
-    
+    <section class="content">
+
+        <div class="content__container">
+
+            <div class="swiper">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <img src="./src/img/gallery/gallery__item-1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./src/img/gallery/gallery__item-2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./src/img/gallery/gallery__item-3.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+
+        </div>
+
+    </section>
 
     <footer class="footer">
 
@@ -130,6 +157,9 @@
         </div>
 
     </footer>
+
+    <script src="./src/libraries/swiper-bundle-min.js"></script>
+    <script src="./src/js/swiper.js"></script>
 
 </body>
 

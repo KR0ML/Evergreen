@@ -29,4 +29,24 @@ const swiper = new Swiper('.swiper', {
         slidesPerView: 3.8,
       },
     }
-  });
+});
+
+const swiper_events = new Swiper('.swiper__events', {
+  // Бексонечная прокрутка
+  loop: true,
+  
+  // Стрелки навигации
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // Количетсво отображаемых слайдов
+  slidesPerView: 1.27,
+
+  // Расстояние между слайдами
+  spaceBetween: 50,
+
+  // Слайд по центру
+  centeredSlides: true,
+});

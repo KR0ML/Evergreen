@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="./src/css/typography.css">
     <link rel="stylesheet" href="./src/css/variables.css">
     <link rel="stylesheet" href="./src/css/components.css">
-    <link rel="stylesheet" href="./src/css/events.css">
+    <link rel="stylesheet" href="./src/libraries/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./src/css/pages/events.css">
     <title>Мероприятия</title>
 </head>
 
@@ -139,7 +140,37 @@
 
     </section>
 
+    <section class="content__swiper">
 
+        <div class="swiper__events">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="slider-top">
+                        <h2 class="_title">Наши мероприятия</h2>
+                    </div>
+                    <img src="./src/img/events/events__item-1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-top">
+                        <h2 class="_title">Наши мероприятия</h2>
+                    </div>
+                    <img src="./src/img/events/events__item-2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-top">
+                        <h2 class="_title">Наши мероприятия</h2>
+                    </div>
+                    <img src="./src/img/events/events__item-1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+    </section>
 
     <footer class="footer">
 
@@ -182,6 +213,9 @@
         </div>
 
     </footer>
+
+    <script src="./src/libraries/swiper-bundle-min.js"></script>
+    <script src="./src/js/swiper.js"></script>
 
 </body>
 
