@@ -6,7 +6,7 @@
     --on-primary-60: rgba(255, 255, 255, 60%);
     --on-background-1: #606C38;
     --on-background-2: #000000;
-    --background-50: #FFFDEF80;
+    --background-50: rgba(255, 253, 239, 50%);
 
     /* Fonts */
     --h1: 400 96px 'Custodia Deco';

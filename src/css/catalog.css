@@ -94,25 +94,49 @@
 ======================================*/
 
 .swiper {
+    position: relative;
     max-width: 100%;
+    border-top: 2px solid var(--primary);
 }
 
 .swiper-slide img {
+    display: block;
     max-width: 100%;
     width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    width: 160px;
+    height: 100%;
+    background-color: var(--background-50);
+    transition: all .1s linear;
+}
+
+.swiper-button-next {
+    right: 0;
 }
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
     color: var(--primary);
-    background-color: var(--background-50);
-    padding: 0 65px;
-    height: 1000px;
 }
 
 .swiper-button-prev:hover,
-.swiper-button-next::after:hover {
-    background-color: white;
+.swiper-button-next:hover {
+    transition: all .1s linear;
+    background-color: var(--background);
+}
+
+.swiper-slide {
+    opacity: 20%;
+    transition: all .1s linear;
+}
+
+.swiper-slide-active {
+    opacity: 100%;
+    transition: all .1s linear;
 }
 
 
