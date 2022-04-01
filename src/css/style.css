@@ -172,9 +172,11 @@
     background-repeat: no-repeat;
 }
 
-.works__button {
+.works__container form{
     align-self: flex-end;
+}
 
+.works__button {
     border-top: 2px solid var(--on-background-1);
     border-bottom: 2px solid var(--on-background-1);
 

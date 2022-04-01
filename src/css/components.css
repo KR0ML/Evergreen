@@ -9,6 +9,19 @@ body {
     background-color: var(--background)
 }
 
+.header__span {
+    padding-bottom: 7px;
+
+    color: var(--on-primary);
+    border-bottom: 1px solid var(--on-primary);
+}
+
+.footer__span {
+    color: var(--on-primary);
+
+    transition: all .1s linear;
+}
+
 .wrapper {
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,6 +103,10 @@ footer {
 }
 
 .footer__menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
     flex-direction: column;
 }
 
@@ -129,6 +146,20 @@ footer {
 .footer__menu__bottom p,
 a {
     color: var(--on-primary);
+}
+
+.insta {
+    fill: var(--on-primary-60);
+    width: 30px; 
+    height: 40px; 
+
+    transition: all .1s linear;
+}
+
+.insta:hover {
+    fill: var(--on-primary);
+
+    transition: all .1s linear;
 }
 
 /*======================================
