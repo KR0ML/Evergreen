@@ -9,6 +9,27 @@ body {
     background-color: var(--background)
 }
 
+button {
+    border: none;
+    border-top: 2px solid var(--on-primary);
+    border-bottom: 2px solid var(--on-primary);
+
+    padding: 14px 0;
+
+    background: transparent;
+    cursor: pointer;
+
+    transition: all .2s ease-in;
+}
+
+button:hover {
+    letter-spacing: 2.5px;
+
+    padding: 14px 10px;
+
+    transition: all .2s ease-in;
+}
+
 .header__span {
     padding-bottom: 7px;
 
@@ -165,27 +186,6 @@ a {
                                   FOOTER
 ======================================*/
 
-button {
-    border: none;
-    border-top: 2px solid var(--on-primary);
-    border-bottom: 2px solid var(--on-primary);
-
-    padding: 14px 0;
-
-    background: transparent;
-    cursor: pointer;
-
-    transition: all .2s ease-in;
-}
-
-button:hover {
-    letter-spacing: 2.5px;
-
-    padding: 14px 10px;
-
-    transition: all .2s ease-in;
-}
-
 ._title-left ._title::before {
     content: "";
     display: inline-block;
@@ -219,6 +219,66 @@ button:hover {
     align-self: flex-end;
 }
 
+/*======================================
+                                   LINES
+======================================*/
+
+._swiper {
+    position: relative;
+    max-width: 100%;
+    border-top: 2px solid var(--primary);
+
+    height: 100vh;
+}
+
+._swiper-slide img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+._swiper-button-prev,
+._swiper-button-next {
+    position: absolute;
+    width: 160px;
+    height: 100%;
+    background-color: var(--background-50);
+    transition: all .1s linear;
+}
+
+._swiper-button-next {
+    right: 0;
+}
+
+._swiper-button-prev::after,
+._swiper-button-next::after {
+    color: var(--primary);
+}
+
+._swiper-button-prev:hover,
+._swiper-button-next:hover {
+    transition: all .1s linear;
+    background-color: var(--background);
+}
+
+._swiper-slide {
+    opacity: 20%;
+    transition: all .1s linear;
+
+    max-width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-slide-active {
+    opacity: 100%;
+    transition: all .1s linear;
+}
+
+/*======================================
+                                  SWIPER
+======================================*/
+
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
@@ -233,3 +293,7 @@ button:hover {
 ::-webkit-scrollbar-thumb {
     background: var(--primary);
 }
+
+/*======================================
+                               SCROLLBAR
+======================================*/

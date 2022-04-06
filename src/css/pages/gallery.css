@@ -93,50 +93,16 @@
                                     INFO
 ======================================*/
 
-.swiper {
-    position: relative;
-    max-width: 100%;
-    border-top: 2px solid var(--primary);
+.img-1 {
+    background-image: url(/Evergreen/src/img/gallery/gallery__item-1.jpg);
 }
 
-.swiper-slide img {
-    display: block;
-    max-width: 100%;
-    width: 100%;
+.img-2 {
+    background-image: url(/Evergreen/src/img/gallery/gallery__item-2.jpg);
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-    position: absolute;
-    width: 160px;
-    height: 100%;
-    background-color: var(--background-50);
-    transition: all .1s linear;
-}
-
-.swiper-button-next {
-    right: 0;
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-    color: var(--primary);
-}
-
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-    transition: all .1s linear;
-    background-color: var(--background);
-}
-
-.swiper-slide {
-    opacity: 20%;
-    transition: all .1s linear;
-}
-
-.swiper-slide-active {
-    opacity: 100%;
-    transition: all .1s linear;
+.img-3 {
+    background-image: url(/Evergreen/src/img/gallery/gallery__item-3.jpg);
 }
 
 /*======================================
